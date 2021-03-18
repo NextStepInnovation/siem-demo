@@ -41,6 +41,16 @@ The software then identifies and categorizes incidents and events, as well as an
 
 In short, the core purpose of SIEM is to provide an accurate, real-time assessment of _what is **true**_ about the security posture of your organization and directly aid in mitigating or eliminating threats to that security.
 
+## Demo
+
+We will be demonstrating two technologies, Splunk and Graylog. These were chosen because they have either a free-to-use (Splunk) or open-source (Graylog) version available. Their choice should not be taken as an endorsement but rather as a means to demonstrate the common aspects of SIEM technologies.
+
+- [Splunk](splunk)
+- [Graylog](graylog)
+
+
+
+
 ## Sources
 
 1. [What is SIEM software? How it works and how to choose the right tool](https://www.csoonline.com/article/2124604/what-is-siem-software-how-it-works-and-how-to-choose-the-right-tool.html)
