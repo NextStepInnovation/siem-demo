@@ -1,0 +1,13 @@
+# docker run -d -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" \
+#     -e 'SPLUNK_PASSWORD=123ABCdef!' --name splunk splunk/splunk:latest
+
+version: '3'
+services:
+  # MongoDB: https://hub.docker.com/_/mongo/
+  splunk:
+    image: splunk/splunk:latest
+    environment: 
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_PASSWORD=123ABCdef!
+    ports:
+      - 127.0.0.1:8000:8000

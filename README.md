@@ -21,7 +21,7 @@ We will be speaking about a few SIEM technologies and demonstrating their basic 
 - [XCode command line tools](https://medium.com/flawless-app-stories/install-command-line-tools-on-macos-catalina-anansewaa-com-6f8c63120fd8)
 - [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)
 
-## Background on SIEM [[source](https://www.csoonline.com/article/2124604/what-is-siem-software-how-it-works-and-how-to-choose-the-right-tool.html)]
+## Background on SIEM
 
 Security Information and Event Management (SIEM) software gives enterprise security professionals both insight into and a track record of the activities within their IT environment. 
 
@@ -39,3 +39,8 @@ The software then identifies and categorizes incidents and events, as well as an
 - send alerts if analysis shows that an activity runs against predetermined
   rulesets and thus indicates a potential security issue.
 
+In short, the core purpose of SIEM is to provide an accurate, real-time assessment of _what is **true**_ about the security posture of your organization and directly aid in mitigating or eliminating threats to that security.
+
+## Sources
+
+1. [What is SIEM software? How it works and how to choose the right tool](https://www.csoonline.com/article/2124604/what-is-siem-software-how-it-works-and-how-to-choose-the-right-tool.html)
